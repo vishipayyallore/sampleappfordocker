@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachineLocation": {
+            "value": "eastus"
+        },
+        "imagePublisher": {
+            "value": "Canonical"
+        },
+        "imageOffer": {
+            "value": "UbuntuServer"
+        },
+        "imageSku": {
+            "value": "14.04.3-LTS"
+        },
+        "dnsNameForPublicIP": {
+            "value": "ubuntudockerhost1"
+        },
+        "virtualMachineSize": {
+            "value": "Basic_A2"
+        },
+        "adminUsername": {
+            "value": "demouser"
+        },
+        "newStorageAccountName": {
+            "value": "ubuntudockerhoste09c7d20"
+        }
+    }
+}
