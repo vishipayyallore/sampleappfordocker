@@ -17,12 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishSc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{234C65D9-BD3F-4227-AE46-FBD9F579DAA6}"
 	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-DockerAzureResourceGroup-2.ps1 = PublishScripts\Scripts\Deploy-DockerAzureResourceGroup-2.ps1
 		PublishScripts\Scripts\Deploy-DockerAzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-DockerAzureResourceGroup.ps1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{6DFF962B-74CE-4F9F-B2F3-4FA8F188FDD0}"
 	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\dockersampleDockerVM-2.json = PublishScripts\Templates\dockersampleDockerVM-2.json
 		PublishScripts\Templates\dockersampleDockerVM.json = PublishScripts\Templates\dockersampleDockerVM.json
+		PublishScripts\Templates\dockersampleDockerVM.param.dev-2.json = PublishScripts\Templates\dockersampleDockerVM.param.dev-2.json
 		PublishScripts\Templates\dockersampleDockerVM.param.dev.json = PublishScripts\Templates\dockersampleDockerVM.param.dev.json
 	EndProjectSection
 EndProject
