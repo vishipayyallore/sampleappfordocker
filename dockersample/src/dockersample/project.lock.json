@@ -135,6 +135,24 @@
           "lib/net45/System.Interactive.Async.dll": {}
         }
       },
+      "Kestrel/1.0.0-beta6": {
+        "dependencies": {
+          "Microsoft.AspNet.Hosting": "1.0.0-beta6",
+          "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Kestrel.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Kestrel.dll": {}
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-beta6": {
         "dependencies": {
           "Microsoft.AspNet.DataProtection": "1.0.0-beta6",
@@ -1078,6 +1096,23 @@
           "Microsoft.AspNet.Loader.IIS.Interop": "1.0.0-beta6"
         }
       },
+      "Microsoft.AspNet.Server.Kestrel/1.0.0-beta6": {
+        "dependencies": {
+          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.Server.Kestrel.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.Server.Kestrel.dll": {}
+        }
+      },
       "Microsoft.AspNet.Server.WebListener/1.0.0-beta6": {
         "dependencies": {
           "Microsoft.AspNet.Hosting": "1.0.0-beta6",
@@ -1931,6 +1966,19 @@
           "lib/portable-windows8+net45+wp8/System.Interactive.Async.dll": {}
         }
       },
+      "Kestrel/1.0.0-beta6": {
+        "dependencies": {
+          "Microsoft.AspNet.Hosting": "1.0.0-beta6",
+          "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta6",
+          "System.Runtime": "4.0.20-beta-23109"
+        },
+        "compile": {
+          "lib/dnxcore50/Kestrel.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Kestrel.dll": {}
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-beta6": {
         "dependencies": {
           "Microsoft.AspNet.DataProtection": "1.0.0-beta6",
@@ -2751,6 +2799,32 @@
         "dependencies": {
           "Microsoft.AspNet.Loader.IIS": "1.0.0-beta6",
           "Microsoft.AspNet.Loader.IIS.Interop": "1.0.0-beta6"
+        }
+      },
+      "Microsoft.AspNet.Server.Kestrel/1.0.0-beta6": {
+        "dependencies": {
+          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6",
+          "System.Collections": "4.0.10-beta-23109",
+          "System.Diagnostics.Debug": "4.0.10-beta-23109",
+          "System.Diagnostics.TraceSource": "4.0.0-beta-23109",
+          "System.Diagnostics.Tracing": "4.0.20-beta-23109",
+          "System.Globalization": "4.0.10-beta-23109",
+          "System.IO": "4.0.10-beta-23109",
+          "System.Linq": "4.0.0-beta-23109",
+          "System.Net.Primitives": "4.0.10-beta-23109",
+          "System.Runtime.Extensions": "4.0.10-beta-23109",
+          "System.Runtime.InteropServices": "4.0.20-beta-23109",
+          "System.Text.Encoding": "4.0.10-beta-23109",
+          "System.Threading": "4.0.10-beta-23109",
+          "System.Threading.Tasks": "4.0.10-beta-23109",
+          "System.Threading.Thread": "4.0.0-beta-23109",
+          "System.Threading.ThreadPool": "4.0.10-beta-23109"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.AspNet.Server.Kestrel.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.AspNet.Server.Kestrel.dll": {}
         }
       },
       "Microsoft.AspNet.Server.WebListener/1.0.0-beta6": {
@@ -3693,6 +3767,23 @@
         },
         "runtime": {
           "lib/DNXCore50/System.Diagnostics.Tools.dll": {}
+        }
+      },
+      "System.Diagnostics.TraceSource/4.0.0-beta-23109": {
+        "dependencies": {
+          "System.Collections": "4.0.10-beta-23109",
+          "System.Diagnostics.Debug": "4.0.10-beta-23109",
+          "System.Globalization": "4.0.10-beta-23109",
+          "System.Resources.ResourceManager": "4.0.0-beta-23109",
+          "System.Runtime": "4.0.20-beta-23109",
+          "System.Runtime.Extensions": "4.0.10-beta-23109",
+          "System.Threading": "4.0.10-beta-23109"
+        },
+        "compile": {
+          "ref/dotnet/System.Diagnostics.TraceSource.dll": {}
+        },
+        "runtime": {
+          "lib/DNXCore50/System.Diagnostics.TraceSource.dll": {}
         }
       },
       "System.Diagnostics.Tracing/4.0.20-beta-23109": {
@@ -4767,6 +4858,20 @@
         "lib/portable-windows8+net45+wp8/System.Interactive.Async.XML"
       ]
     },
+    "Kestrel/1.0.0-beta6": {
+      "serviceable": true,
+      "sha512": "RTwIrran9aZVEzu727H1f7TL4ZRfaT7Ei9VG9INV4mqLCLWo42WkxJY3huPvGy6ojwgOwR45ZnXiNt1/IZJP9g==",
+      "files": [
+        "Kestrel.1.0.0-beta6.nupkg",
+        "Kestrel.1.0.0-beta6.nupkg.sha512",
+        "Kestrel.nuspec",
+        "lib/dnx451/Kestrel.dll",
+        "lib/dnx451/Kestrel.xml",
+        "lib/dnxcore50/Kestrel.dll",
+        "lib/dnxcore50/Kestrel.xml",
+        "repo.json"
+      ]
+    },
     "Microsoft.AspNet.Antiforgery/1.0.0-beta6": {
       "serviceable": true,
       "sha512": "1L0MAy0A+Lc5zMAyr/tg78Lbk/ZdaRVEqf5F7zkG3oEqzQeMqK0tdYNDQce23egEBFTqw9ZEh5dcODL+I+f5sA==",
@@ -5482,6 +5587,23 @@
         "Microsoft.AspNet.Server.IIS.1.0.0-beta6.nupkg",
         "Microsoft.AspNet.Server.IIS.1.0.0-beta6.nupkg.sha512",
         "Microsoft.AspNet.Server.IIS.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Server.Kestrel/1.0.0-beta6": {
+      "serviceable": true,
+      "sha512": "L3NJgyFKcE6ZRIaXHytZyeElIn7MtVmJyQp/xKHeGMP8f3xtmQyqzu03tSvw2jPVD3fUvUxyTpbVYk2Vv2C17g==",
+      "files": [
+        "lib/dnx451/Microsoft.AspNet.Server.Kestrel.dll",
+        "lib/dnx451/Microsoft.AspNet.Server.Kestrel.xml",
+        "lib/dnxcore50/Microsoft.AspNet.Server.Kestrel.dll",
+        "lib/dnxcore50/Microsoft.AspNet.Server.Kestrel.xml",
+        "Microsoft.AspNet.Server.Kestrel.1.0.0-beta6.nupkg",
+        "Microsoft.AspNet.Server.Kestrel.1.0.0-beta6.nupkg.sha512",
+        "Microsoft.AspNet.Server.Kestrel.nuspec",
+        "native/darwin/universal/libuv.dylib",
+        "native/windows/amd64/libuv.dll",
+        "native/windows/x86/libuv.dll",
+        "repo.json"
       ]
     },
     "Microsoft.AspNet.Server.WebListener/1.0.0-beta6": {
@@ -6635,6 +6757,29 @@
         "System.Diagnostics.Tools.4.0.0-beta-23109.nupkg",
         "System.Diagnostics.Tools.4.0.0-beta-23109.nupkg.sha512",
         "System.Diagnostics.Tools.nuspec"
+      ]
+    },
+    "System.Diagnostics.TraceSource/4.0.0-beta-23109": {
+      "serviceable": true,
+      "sha512": "UFzG2y1IMRlZ/13WWhkIJUJ0RpcK5XrNoSpZUfy7JxJhlliKeAvP06yXHXk6XECxizvIucE0EfE0MovKo07QiA==",
+      "files": [
+        "lib/DNXCore50/System.Diagnostics.TraceSource.dll",
+        "lib/net46/System.Diagnostics.TraceSource.dll",
+        "ref/dotnet/de/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/es/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/fr/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/it/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/ja/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/ko/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/ru/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/System.Diagnostics.TraceSource.dll",
+        "ref/dotnet/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/zh-hans/System.Diagnostics.TraceSource.xml",
+        "ref/dotnet/zh-hant/System.Diagnostics.TraceSource.xml",
+        "ref/net46/System.Diagnostics.TraceSource.dll",
+        "System.Diagnostics.TraceSource.4.0.0-beta-23109.nupkg",
+        "System.Diagnostics.TraceSource.4.0.0-beta-23109.nupkg.sha512",
+        "System.Diagnostics.TraceSource.nuspec"
       ]
     },
     "System.Diagnostics.Tracing/4.0.20-beta-23109": {
@@ -8344,7 +8489,8 @@
       "Microsoft.Framework.Configuration.UserSecrets >= 1.0.0-beta6",
       "Microsoft.Framework.Logging >= 1.0.0-beta6",
       "Microsoft.Framework.Logging.Console >= 1.0.0-beta6",
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-beta6"
+      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-beta6",
+      "Kestrel >= 1.0.0-beta6"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []
